@@ -40,6 +40,9 @@ class Pacjent:
         
     def __str__(self):
         return "Pacjent " + self.status + " @ "  + str(self.x) + " x " + str(self.y)
+    
+    def zapisz_do_pliku(self, nazwa_pliku):
+        print("TODO: w tym miejscu powinno sie zapisać do pliku {}".format(nazwa_pliku))
         
     
     
